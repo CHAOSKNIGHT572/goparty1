@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1082677656700",
+    "firebase_url": "https://goparty-24c59.firebaseio.com",
+    "project_id": "goparty-24c59",
+    "storage_bucket": "goparty-24c59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082677656700:android:38197c60ea7b7e66",
+        "android_client_info": {
+          "package_name": "com.example.tansen.goparty1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082677656700-bac9gtohq2b8n6rfr60lmehpantnbpc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tansen.goparty1",
+            "certificate_hash": "8b9d7422924819d2097797adf7cea0c90643327f"
+          }
+        },
+        {
+          "client_id": "1082677656700-s14gss179942s7gvq0lstppq9761vrmn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyRi1kesAzmbXzSVyDsRxUq3FxKaFB7qU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082677656700-s14gss179942s7gvq0lstppq9761vrmn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

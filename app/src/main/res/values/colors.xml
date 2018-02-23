@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="or900">#E65100</color>
+    <color name="or800">#EF6C00</color>
+    <color name="or700">#F57C00</color>
+    <color name="or600">#FB8C00</color>
+    <color name="or500">#FF9800</color>
+    <color name="or400">#FFA726</color>
+    <color name="or300">#FFB74D</color>
+    <color name="or200">#FFCC80</color>
+    <color name="or100">#FFE0B2</color>
+    <color name="or50">#FFF3E0</color>
+
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorMild">#9d9c9c</color>
+    <color name="colorDivider">#eae6e6</color>
+
+    <color name="colorLightYellow">#FEFAF7</color>
+    <color name="colorLightBlue">#EAF2F8</color>
+    <color name="colorPink">#F9DDD2</color>
+    <color name="colorColorPink">#FFCCCC</color>
+    <color name="colorCandyBlue">#ebf4f3</color>
+    <color name="colorCandyRed">#fe5065</color>
+    <color name="colorCandyYellow">#fcfdd1</color>
+    <color name="colorGrey">#edf2f3</color>
+    <color name="colorRed">#fe0000</color>
+    <color name="colorMistyrose">#ffe4e1</color>
+    <color name="colorDarkPink">#ff80ab</color>
+    <color name="colorLavenderblush">#fff0f5</color>
+
+    <!-- Screens background color-->
+    <color name="bg_slider_screen1">#60fe5065</color>
+    <color name="bg_slider_screen2">#80fe5065</color>
+    <color name="bg_slider_screen3">#90fe5065</color>
+    <color name="bg_slider_screen4">#afd8f0</color>
+    <!-- dots inactive colors -->
+    <color name="dot_inactive_screen1">#70fe5065</color>
+    <color name="dot_inactive_screen2">#90fe5065</color>
+    <color name="dot_inactive_screen3">#fe5065</color>
+    <color name="dot_inactive_screen4">#0e1e49</color>
+    <!-- dots active colors -->
+    <color name="dot_active_screen1">#70ff80ab</color>
+    <color name="dot_active_screen2">#90ff80ab</color>
+    <color name="dot_active_screen3">#ff80ab</color>
+    <color name="dot_active_screen4">#3a67e0</color>
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen3</item>
+        <item>@color/dot_active_screen4</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen1</item>
+        <item>@color/dot_inactive_screen2</item>
+        <item>@color/dot_inactive_screen3</item>
+        <item>@color/dot_inactive_screen4</item>
+    </array>
+</resources>

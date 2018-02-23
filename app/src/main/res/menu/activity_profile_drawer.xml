@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_party_nearby"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="@string/menu_party_nearby" />
+        <item
+            android:id="@+id/nav_find_party"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/menu_find_party" />
+        <item
+            android:id="@+id/nav_host_party"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_host_party" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:iconTint="@color/colorCandyRed"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+
+</menu>

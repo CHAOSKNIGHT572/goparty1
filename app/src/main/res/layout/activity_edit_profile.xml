@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="38.40dp"
+    android:orientation="vertical"
+    tools:context="com.example.tansen.goparty1.EditProfileActivity">
+
+    <EditText
+        android:id="@+id/profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_profile_name"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="16.80dp"
+        android:textSize="16.80dp"
+        android:background="@drawable/bottom_border"
+        android:textColor="@color/colorBlack"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/profile_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_profile_country"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="16.80dp"
+        android:textSize="16.80dp"
+        android:background="@drawable/bottom_border"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="38.40dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/profile_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_profile_phone"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:padding="16.80dp"
+        android:textSize="16.80dp"
+        android:background="@drawable/bottom_border"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="19.20dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/profile_hobby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_profile_hobby"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="16.80dp"
+        android:textSize="16.80dp"
+        android:background="@drawable/bottom_border"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="19.20dp"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/save_edit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/save_edit"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/_12sdp"/>
+
+
+</LinearLayout>

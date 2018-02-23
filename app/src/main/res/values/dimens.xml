@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">240dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="_8sdp">19.20dp</dimen>
+    <dimen name="_12sdp">16.80dp</dimen>
+    <dimen name="_18sdp">21.60dp</dimen>
+    <dimen name="_16sdp">38.40dp</dimen>
+    <dimen name="_24sdp">33.60dp</dimen>
+    <dimen name="_32sdp">35.20dp</dimen>
+    <dimen name="_56sdp">117.60dp</dimen>
+    <dimen name="_130sdp">156.00dp</dimen>
+
+
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width">200dp</dimen>
+    <dimen name="img_height">280dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+
+    <dimen name="text_paddingTop">4dp</dimen>
+    <dimen name="title_paddingTop">25dp</dimen>
+
+
+    <dimen name="linearLayout_height">120dp</dimen>
+
+    <dimen name="detail_img_width">150dp</dimen>
+    <dimen name="detail_img_height">210dp</dimen>
+
+    <dimen name="head_picture">100dp</dimen>
+</resources>

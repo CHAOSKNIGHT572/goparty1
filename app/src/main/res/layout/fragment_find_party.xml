@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_layout_fragment_findparty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id_label_findpartiesby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Find Parties by: "
+        android:textAppearance="@style/Title"
+        android:paddingTop="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="20dp"
+        android:layout_height="@dimen/linearLayout_height"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical">
+
+        <TextView
+            android:id="@+id/id_label_partyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextTitle"
+            android:text="Party Name: "/>
+
+        <EditText
+            android:id="@+id/id_findByPartyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Text"
+            android:hint="Please enter party name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linearLayout_height"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextTitle"
+            android:text="Host Name:"/>
+
+        <EditText
+            android:id="@+id/id_findByHostName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Text"
+            android:hint="Please enter host name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linearLayout_height"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical">
+
+        <TextView
+            android:id="@+id/id_label_zipcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextTitle"
+            android:text="Zip Code:" />
+
+        <EditText
+            android:id="@+id/id_findByZipcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Text"
+            android:hint="Please enter zipcode"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linearLayout_height"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical">
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Search"/>
+    </LinearLayout>
+
+</LinearLayout>
